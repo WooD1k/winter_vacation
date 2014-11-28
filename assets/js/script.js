@@ -1,7 +1,7 @@
 $(function(){
 	var title = $('#title');
 	var note = $('#note'),
-		ts = new Date(2014, 11, 22),
+		ts = new Date(2014, 11, 22, 17, 30),
 		newYear = true;
 	
 	if((new Date()) > ts){
